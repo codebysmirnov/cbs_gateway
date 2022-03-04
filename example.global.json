@@ -1,0 +1,9 @@
+{
+  "entrypoint": {
+    "host": "http://localhost",
+    "port": 8080
+  },
+  "logging": {
+    "mode": "stdout"
+  }
+}
