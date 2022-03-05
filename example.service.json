@@ -1,17 +1,16 @@
-[
-  {
-    "name": "test_service",
-    "host": "localhost:8081",
-    "auth": {
-      "mode": "API Key",
-      "key": "SOMEAPIKEY"
-    },
-    "endpoints": [
-      {
-        "method": "GET",
-        "from": "/test_service/test",
-        "to": "/test"
-      }
-    ]
-  }
-]
+{
+	"name": "test_service",
+	"host": "http://localhost:8081",
+	"endpoints": [
+		{
+			"method": "GET",
+			"from": "/test_service/test",
+			"to": "/test"
+		},
+		{
+			"method": "GET",
+			"from": "/test_service/testing",
+			"to": "/testing"
+		}
+	]
+}
